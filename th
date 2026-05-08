@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع ثائر الشخصي</title>
+    <style>
+        /* تنسيقات عامة */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #34495e;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            background: #1abc9c;
+        }
+        .hero {
+            height: 400px;
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://placeholder.com');
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            flex-direction: column;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2c3e50;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ثائـــر</h1>
+        <p>مرحباً بكم في موقعي الرسمي</p>
+    </header>
+
+    <nav>
+        <a href="#about">من أنا</a>
+        <a href="#services">خدماتي</a>
+        <a href="#contact">اتصل بي</a>
+    </nav>
+
+    <div class="hero">
+        <h2>أهلاً بك في عالمي الرقمي</h2>
+        <p>هنا تجد كل ما يتعلق بأعمالي ومشاريعي</p>
+    </div>
+
+    <div class="container">
+        <div id="about" class="section">
+            <h2>من أنا</h2>
+            <p>أنا ثائر، مهتم بمجال التكنولوجيا والإبداع. أسعى دائماً لتقديم الأفضل ومشاركة المعرفة مع الجميع.</p>
+        </div>
+
+        <div id="services" class="section">
+            <h2>خدماتي</h2>
+            <ul>
+                <li>تطوير الأفكار الإبداعية</li>
+                <li>إدارة المشاريع الرقمية</li>
+                <li>تقديم الاستشارات التقنية</li>
+            </ul>
+        </div>
+
+        <div id="contact" class="section">
+            <h2>اتصل بي</h2>
+            <p>يمكنك التواصل معي عبر البريد الإلكتروني: <br> <strong>thaer@example.com</strong></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2026 ثائر</p>
+    </footer>
+
+</body>
+</html>
